@@ -1,0 +1,17 @@
+
+
+
+* 代码实践
+
+** 加密
+参考: [[https://www.shiyanlou.com/courses/890/labs/3248/document][实验楼文档]]
+
+[[https://github.com/bentan2013/study-blockchain/blob/master/encryption.py][代码：encryption.py]] 实验楼是python2.7的，我想改成python3.5的，目前还没有完成。
+
+** PoW
+
+*** Proof of work计算量模拟
+参考: [[https://www.shiyanlou.com/courses/890/labs/3248/document][实验楼文档]]
+
+
+
