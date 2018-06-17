@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
     # init good nodes and evil nodes
     total_node_num = 100
-    good_node_num = 55
+    good_node_num = 49
     evil_node_num = total_node_num - good_node_num
 
     name_index = 1
@@ -171,7 +171,7 @@ if __name__ == '__main__':
                 b_first_show = False
                 plt.legend()
 
-            plt.pause(1)
+            plt.pause(0.5)
 
 
 
