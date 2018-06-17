@@ -45,3 +45,33 @@ github 地址: [[https://github.com/bentan2013/study-blockchain]]
 
 [[https://user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif]]
 
+* 环境部署
+- 安装[[https://www.anaconda.com/download/][Anaconda]] 3.x版本
+
+- 创建虚拟环境
+#+BEGIN_SRC shell
+conda create -n bc python=3.6
+#+END_SRC
+
+- 激活虚拟环境
+#+BEGIN_SRC 
+activate pipe3d
+
+'''如果是linux 需要在前面加上source'''
+#+END_SRC
+
+- 克隆工程
+#+BEGIN_SRC 
+git clone git@github.com:bentan2013/study-blockchain.git
+#+END_SRC
+
+- 切换到主目录文件夹中
+#+BEGIN_SRC 
+cd study-blockchain
+#+END_SRC
+
+- 安装依赖
+#+BEGIN_SRC 
+pip install -r requirements.txt
+#+END_SRC
+

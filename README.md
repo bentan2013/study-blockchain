@@ -14,6 +14,7 @@
 </li>
 </ul>
 </li>
+<li><a href="#sec-2">2. 环境部署</a></li>
 </ul>
 </div>
 </div>
@@ -59,8 +60,34 @@ github 地址: <https://github.com/bentan2013/study-blockchain>
 
 没有51%算力时，失败的双重支付
 
-![img](https://user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
+![img](//user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
 
 超过51%算力时，成功的双重支付
 
-![img](https://user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
+![img](//user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
+
+# 环境部署<a id="sec-2" name="sec-2"></a>
+
+-   安装[Anaconda](https://www.anaconda.com/download/) 3.x版本
+
+-   创建虚拟环境
+
+    conda create -n bc python=3.6
+
+-   激活虚拟环境
+
+    activate pipe3d
+    
+    '''如果是linux 需要在前面加上source'''
+
+-   克隆工程
+
+    git clone git@github.com:bentan2013/study-blockchain.git
+
+-   切换到主目录文件夹中
+
+    cd study-blockchain
+
+-   安装依赖
+
+    pip install -r requirements.txt
