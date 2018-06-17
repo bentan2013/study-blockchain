@@ -1,6 +1,9 @@
 
 
 
+github.io地址： [[https://bentan2013.github.io/study-blockchain/]]
+github 地址: [[https://github.com/bentan2013/study-blockchain]]
+
 * 代码实践
 
 ** 数据结构
@@ -35,6 +38,7 @@
 最后使用一个图来表示，有正确交易的链的增长情况和包含不正确交易的链的增长情况。
 
 没有51%算力时，失败的双重支付
+
 [[https://user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif]]
 
 超过51%算力时，成功的双重支付

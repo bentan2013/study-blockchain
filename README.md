@@ -18,6 +18,9 @@
 </div>
 </div>
 
+github.io地址： <https://bentan2013.github.io/study-blockchain/>
+github 地址: <https://github.com/bentan2013/study-blockchain>
+
 # 代码实践<a id="sec-1" name="sec-1"></a>
 
 ## 数据结构<a id="sec-1-1" name="sec-1-1"></a>
@@ -55,8 +58,9 @@
 最后使用一个图来表示，有正确交易的链的增长情况和包含不正确交易的链的增长情况。
 
 没有51%算力时，失败的双重支付
-![img](http://user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
+
+![img](https://user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
 
 超过51%算力时，成功的双重支付
 
-![img](http://user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
+![img](https://user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
