@@ -60,11 +60,11 @@ github 地址: <https://github.com/bentan2013/study-blockchain>
 
 没有51%算力时，失败的双重支付
 
-![img](//user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
+![img](https://user-images.githubusercontent.com/5510943/41500062-b67970be-71bd-11e8-894a-4e451d2fb5eb.gif)
 
 超过51%算力时，成功的双重支付
 
-![img](//user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
+![img](https://user-images.githubusercontent.com/5510943/41508131-6362fd90-7272-11e8-8bf1-c29987eda770.gif)
 
 # 环境部署<a id="sec-2" name="sec-2"></a>
 
