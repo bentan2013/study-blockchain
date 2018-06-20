@@ -25,7 +25,7 @@ def base58encode(n):
 
 def base256decode(s):
     result = 0
-    for c in s:
+    for c in s.decode():
         result = result * 256 + ord(c)
     return result
 
@@ -43,8 +43,8 @@ def countLeadingChars(s, ch):
 # https://en.bitcoin.it/wiki/Base58Check_encoding
 def base58CheckEncode(version, payload):
     s = binascii.hexlify(chr(version).encode()) + payload
-    checksum = hashlib.sha256(hashlib.sha256(s).digest()).digest()[0:4]
-    result = s + checksum
+    checksum = hashlib.sha256(hashlib.sha256(s).digest()).hexdigest()[0:4]
+    result = s + checksum.encode()
     leadingZeros = countLeadingChars(result, '\0')
     return '1' * leadingZeros + base58encode(base256decode(result))
 
@@ -61,7 +61,7 @@ def privateKeyToPublicKey(s):
 
 def pubKeyToAddr(s):
     ripemd160 = hashlib.new('ripemd160')
-    ripemd160.update(hashlib.sha256(s.decode('hex')).digest())
+    ripemd160.update(hashlib.sha256(s).digest())
     return base58CheckEncode(0, ripemd160.digest())
 
 
@@ -74,7 +74,7 @@ private_key = binascii.hexlify(os.urandom(32))
 # You can verify the values on http://brainwallet.org/
 print ("Secret Exponent (Uncompressed) : %s " % private_key )
 print ("Public Key      : %s" %  privateKeyToPublicKey(private_key))
-print ("Private Key     : %s " % privateKeyToWif(private_key))
+#print ("Private Key     : %s " % privateKeyToWif(private_key))
 print ("Address         : %s " % keyToAddr(private_key))
 
 
